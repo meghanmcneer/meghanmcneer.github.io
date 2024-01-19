@@ -138,7 +138,7 @@
 					<picture>
 						<!--<source srcset="./images/scene/scene-mobile-table-tall.webp" type="image/webp" />-->
 
-						<img width="400" height="263" class="mobile" src="./images/scene/scene-mobile-table-tall.png" alt="A table sits in the room with a mauve gingham tablecloth, the table goes out of frame but appears that it could seat at least 10 people. Only 4 caned chairs are visible in the room. Entertaining and setting the table are important to Meghan, so the table takes up a fair amount of real estate in the scene." />
+						<img id="table-mobile" width="400" height="263" class="mobile" src="./images/scene/scene-mobile-table-tall.png" alt="A table sits in the room with a mauve gingham tablecloth, the table goes out of frame but appears that it could seat at least 10 people. Only 4 caned chairs are visible in the room. Entertaining and setting the table are important to Meghan, so the table takes up a fair amount of real estate in the scene." />
 					</picture>
 					<picture>
 						<!--<source srcset="./images/scene/scene-table.webp" type="image/webp" />-->
@@ -208,7 +208,9 @@
 				  if (0 <= currentTime&&currentTime < 7) {
 					document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
 					const table_image = document.getElementById('table');
-					table_image.src = './images/scene/set_table.png';
+					table_image.src = './images/scene/set_table_desktop.png';
+					const table_image = document.getElementById('table-mobile');
+					table_image.src = './images/scene/set_table_mobile.png';
 					const window_image = document.getElementById('window');
 					window_image.src = './images/scene/nighttime_window_alone.png';
 				  }
@@ -218,7 +220,9 @@
 				  if (20 <= currentTime&&currentTime <= 24) {
 					document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
 					const table_image = document.getElementById('table');
-					table_image.src = './images/scene/set_table.png';
+					table_image.src = './images/scene/set_table_desktop.png';
+					const table_image = document.getElementById('table-mobile');
+					table_image.src = './images/scene/set_table_mobile.png';
 					const window_image = document.getElementById('window');
 					window_image.src = './images/scene/nighttime_window_alone.png';
 				  }
