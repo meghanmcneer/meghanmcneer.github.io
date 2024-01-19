@@ -206,17 +206,21 @@
 			function getStylesheet() {
 				  var currentTime = new Date().getHours();
 				  if (0 <= currentTime&&currentTime < 7) {
-				   document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
-				  }
-				  if (7 <= currentTime&&currentTime < 20) {
-				   document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
+					document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
 					const table_image = document.getElementById('table');
 					table_image.src = './images/scene/set_table.png';
 					const window_image = document.getElementById('window');
 					window_image.src = './images/scene/nighttime_window_alone.png';
 				  }
+				  if (7 <= currentTime&&currentTime < 20) {
+					document.write("<link rel='stylesheet' href='styles/style.css' type='text/css'>");
+				  }
 				  if (20 <= currentTime&&currentTime <= 24) {
-				   document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
+					document.write("<link rel='stylesheet' href='styles/night.css' type='text/css'>");
+					const table_image = document.getElementById('table');
+					table_image.src = './images/scene/set_table.png';
+					const window_image = document.getElementById('window');
+					window_image.src = './images/scene/nighttime_window_alone.png';
 				  }
 			}
 			
