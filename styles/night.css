@@ -223,7 +223,7 @@ main.home {
   .objects [data-object=cassette] {
     width: 75px;
     bottom: 0;
-    left: 455px;
+    left: 377px;
     right: auto;
   }
 }
@@ -243,8 +243,8 @@ main.home {
 @media (min-width: 600px) {
   .objects [data-object=chicken] {
     width: 165px;
-    bottom: 4%;
-    left: 190px;
+    bottom: .3%;
+    left: 50px;
   }
 }
 .objects [data-object=chicken] .label {
