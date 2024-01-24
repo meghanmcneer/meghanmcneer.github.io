@@ -215,7 +215,7 @@ main.home {
 }
 .objects [data-object=cassette] {
   width: 70px;
-  bottom: 4vw;
+  bottom: 38px;
   left: auto;
   right: 13vw;
 }
@@ -236,7 +236,7 @@ main.home {
   }
 }
 .objects [data-object=chicken] {
-  bottom: 3vw;
+  bottom: 36px;
   left: calc(45% - 75px);
   width: 150px;
 }
