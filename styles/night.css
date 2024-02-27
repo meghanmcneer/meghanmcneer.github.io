@@ -215,7 +215,7 @@ main.home {
 }
 .objects [data-object=cassette] {
   width: 70px;
-  bottom: 38px;
+  bottom: 32px;
   left: auto;
   right: 13vw;
 }
@@ -236,7 +236,7 @@ main.home {
   }
 }
 .objects [data-object=chicken] {
-  bottom: 36px;
+  bottom: 26px;
   left: calc(45% - 75px);
   width: 150px;
 }
@@ -406,7 +406,7 @@ main.home {
 }
 @media (pointer: coarse) {
   .scene [data-scene-item=table] {
-    bottom: -3vw;
+    bottom: 8px;
   }
 }
 .scene [data-scene-item=table] img {
@@ -416,8 +416,6 @@ main.home {
 }
 .scene [data-scene-item=table] img.mobile {
   display: block;
-  width: 101vw !important;
-  margin-left: 10vw !important;
 }
 @media (min-width: 400px) {
   .scene [data-scene-item=table] {
